@@ -1,5 +1,5 @@
 /**
- *  CIS 181 A boolean 2D array-based game board class
+ *  A boolean 2D array-based game board class
  *
  **/
 import javax.swing.*;
