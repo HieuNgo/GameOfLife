@@ -1,5 +1,5 @@
 /**
- * CIS 181 Array Based Implementation of Conway's Game Of Life
+ *  Array Based Implementation of Conway's Game Of Life
  * The game of life interface: GameInterface.java
  *
  * This is the interface between the GameGUI class and any class that implements this
@@ -7,7 +7,6 @@
  * different way, e.g., using a linked list, the GameGUI class does not need to be
  * modified.
  *
- * @author Haiping Xu
  **/
 
 //import java.awt.Point;
