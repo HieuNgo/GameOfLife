@@ -1,5 +1,5 @@
 /**
- * CIS 181 Boolean 2D Array IO
+ *  Boolean 2D Array IO
  *
  * An IO class for reading and writing text file
  * representations of two-dimensional boolean arrays.
