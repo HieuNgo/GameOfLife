@@ -1,16 +1,9 @@
-/***********************************************************
- * Project #2 (CIS 181, Fall 2008)                         *
- * Submitted By: Your name here !!!                        *
- * SID: Your new SID starting with "00"                    *
- * Date: Your submission date                              *
- ***********************************************************/
+
 
 /**
  * CIS 181 Array Based Implementation of Conway's Game Of Life
  * The game of life class: GameOfLife.java
  *
- * @author Haiping Xu
- * Created on October 25, 2008
  **/
 
 public class GameOfLife implements GameInterface {
@@ -39,8 +32,6 @@ public class GameOfLife implements GameInterface {
     // Postcondtion: 'map' is a deep copy of 'sourceMap'.
     //
     private void copyMap(boolean sourceMap[][]) {
-
-        // ==> 1. Add your code here!
     	for(int i = 0;i<MAX_ROWS;i++)
     	{
     		for(int j = 0;j<MAX_COLS;j++)
@@ -57,7 +48,6 @@ public class GameOfLife implements GameInterface {
     //
     private void clearMap(boolean targetMap[][]) {
 
-        // ==> 2. Add your code here!
     	for(int i = 0;i<MAX_ROWS;i++)
     	{
     		for(int j = 0;j<MAX_COLS;j++)
@@ -81,7 +71,6 @@ public class GameOfLife implements GameInterface {
     private int getFlatNeighborCount(int row, int col){
         int count = 0;
 
-        // ==> 3. Add your code here!
         if(row >= 0 && row < MAX_ROWS && col >= 0 && col < MAX_COLS)
         {
 	        int tmp1 = row-1, tmp2 = row+1, tmp3 = col -1, tmp4 = col +1;
@@ -158,7 +147,6 @@ public class GameOfLife implements GameInterface {
     //	
     public  void nextGenerationForFlatGrid() {
 
-        // ==> 4. Add your code here!
     	//a) + b) + c)
     	for(int i = 0;i<MAX_ROWS;i++)
     	{
@@ -180,7 +168,6 @@ public class GameOfLife implements GameInterface {
     }
 
 
-    // ==> 5. Implement the game of life for torus grid.
     // nextGenerationForTorusGrid:
     // Precondtions: None
     // Postcondtion: The next generation of live and dead cells is calculated using
