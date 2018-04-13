@@ -1,8 +1,7 @@
 /**
- * CIS 181 Array Based Implementation of Conway's Game Of Life
+ * Array Based Implementation of Conway's Game Of Life
  * The game of life GUI class: GameGUI.java
  *
- * @author Haiping Xu
  **/
 
 import javax.swing.*;
